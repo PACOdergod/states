@@ -8,3 +8,19 @@ class ActivarUsiario extends UsuarioEvents {
 
   ActivarUsiario(this.usuario);
 }
+
+class CambiarEdad extends UsuarioEvents {
+  final int nuevaEdad;
+
+  CambiarEdad(this.nuevaEdad);
+}
+
+class AgregarProfesion extends UsuarioEvents {
+  final String nuevaProfesion;
+
+  AgregarProfesion(this.nuevaProfesion);
+}
+
+class BorrarUsuario extends UsuarioEvents {
+  
+}
